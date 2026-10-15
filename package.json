@@ -1,0 +1,21 @@
+{
+  "name": "irmia-onebot11-mcp",
+  "version": "1.0.0",
+  "description": "OneBot protocol supplement MCP for the I.R.M.I.A framework - non-messaging OneBot v11 actions (queries + group/member admin). Currently only adapted to SnowLuma.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "irmia-onebot11-mcp": "index.js"
+  },
+  "engines": {
+    "node": ">=22.4.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "selfcheck": "node selfcheck.js"
+  },
+  "license": "AGPL-3.0-only",
+  "keywords": ["mcp", "onebot", "onebot11", "snowluma", "irmia", "stdio"],
+  "dependencies": {},
+  "devDependencies": {}
+}
